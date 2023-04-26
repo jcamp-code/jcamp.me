@@ -2,13 +2,13 @@ import { defineConfig } from '@jcamp/vitepress-blog-theme/config'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'VitePress Blog Demo',
-  description: 'A VitePress Blog Theme',
+  title: 'jCamp.me',
+  description: 'Personal blog of John Campion',
   themeConfig: {
     blog: {
-      title: 'My AI Written Blog',
-      description: 'All these articles were written by AI!',
-      defaultAuthor: 'AI Writer',
+      title: 'My Personal Blog',
+      description: "A resource of useful tools and techniques I've found over the years.",
+      defaultAuthor: 'John Campion',
       categoryIcons: {
         article: 'i-[heroicons-outline/book-open]',
         tutorial: 'i-[heroicons-outline/academic-cap]',
@@ -66,7 +66,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/jcamp-code/vitepress-blog-theme',
+        link: 'https://github.com/jcamp-code/jcamp.me',
       },
     ],
   },

@@ -1,11 +1,11 @@
 {
-  "name": "vitepress-blog-init",
-  "version": "0.0.1",
+  "name": "jcamp.me",
   "type": "module",
-  "homepage": "https://github.com/jcamp-code/starter-vitepress-blog",
+  "private": "true",
+  "homepage": "https://github.com/jcamp-code/jcamp.me",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcamp-code/starter-vitepress-blog.git"
+    "url": "git+https://github.com/jcamp-code/jcamp.me.git"
   },
   "devDependencies": {
     "@jcamp/vitepress-blog-theme": "0.3.0",
