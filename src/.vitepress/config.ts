@@ -25,8 +25,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Theme Test', link: '/theme-test' },
+      { text: 'Drivers', link: '/reference/drivers/2023' },
+      { text: 'Utilities', link: '/reference/utilities' },
       {
         text: 'Blog',
         items: [
@@ -45,20 +45,20 @@ export default defineConfig({
             link: '/blog/archives',
             activeMatch: '/blog/archives',
           },
-          // {
-          //   text: 'RSS Feed',
-          //   link: '/blog/feed.rss',
-          // },
+          {
+            text: 'RSS Feed',
+            link: '/blog/feed.rss',
+          },
         ],
       },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Reference',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Drivers', link: '/reference/drivers/2023' },
+          { text: 'Utilities', link: '/reference/utilities' },
         ],
       },
     ],
