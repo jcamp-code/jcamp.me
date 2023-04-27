@@ -9,9 +9,18 @@ Instructions for making a Windows to Go USB drive
 
 ---
 
-## Software
+## Prerequisites
 
-- [Rufus](https://github.com/pbatard/rufus/releases/download/v4.0/rufus-4.0.exe)
+### Hardware
+
+- A reliable USB flash drive or external hard drive. The faster the drive, the snappier the Windows to Go installation will feel. I personally use a [Samsung T7](https://a.co/d/2L0Uz0J); I'm a big fan of Samsung's drives.
+
+### Software
+
+- [Rufus](https://github.com/pbatard/rufus/releases/download/v4.0/rufus-4.0.exe): For creating the bootable USB drive
+- [Windows 11 ISO](https://www.microsoft.com/en-in/software-download/windows11): To create the Windows To Go installation
+
+Download Rufus and the Windows 11 ISO above. Start Rufus and proceed
 
 ## Step by Step Directions
 

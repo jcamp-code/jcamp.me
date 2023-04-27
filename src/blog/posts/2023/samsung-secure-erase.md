@@ -11,12 +11,20 @@ Instructions for making a bootable Samsung Secure Erase drive
 
 Note that this tool only works on Samsung SSDs; it will not work with other manufacturers.
 
-## Software
+## Prerequisites
 
-- [Rufus](https://github.com/pbatard/rufus/releases/download/v4.0/rufus-4.0.exe)
+### Hardware
+
+- A reliable USB flash drive. This can be any old USB drive; speed and size are both pretty much irrelevant.
+
+### Software
+
+- [Rufus](https://github.com/pbatard/rufus/releases/download/v4.0/rufus-4.0.exe): For creating the bootable USB drive
 - [Samsung Secure Erase ISO](https://downloads.jcamp.me/SAMSUNGBOOT.iso)
 
 Note that this image can be created by the [Samsung Magician](https://semiconductor.samsung.com/consumer-storage/support/tools/) software but I struggled to get it to work consistently, so I made myself an ISO of the drive.
+
+Download Rufus and the Samsung ISO above. Start Rufus and proceed
 
 ## Step by Step Directions
 
