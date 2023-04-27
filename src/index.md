@@ -3,22 +3,25 @@
 layout: home
 
 hero:
-  name: 'My Awesome Project'
-  text: 'A VitePress Site'
-  tagline: My great project tagline
+  name: 'jCamp.me'
+  text: 'The reference and blog site of John Campion, Jr.'
+  tagline: Tired of all the ads, and trying to find that one reference I saw once upon a time, somewhere, I decided to document my projects.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Tutorials
+      link: /blog
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Utilities
+      link: /reference/utilities
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: My Tutorials
+    details: Projects I wanted to document for my own future reference, maybe others will find useful too.
+    link: /blog
+  - title: Utilities
+    details: Links to frequently used utilites
+    link: /reference/utilities
+  - title: Drivers
+    details: Links to frequently used drivers
+    link: /reference/drivers/2023
 ---
