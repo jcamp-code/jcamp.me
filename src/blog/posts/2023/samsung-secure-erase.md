@@ -36,7 +36,7 @@ Download Rufus and the Samsung ISO above. Start Rufus and proceed
 
 You must temporarily turn off Secure Boot for this to work. This option is found in the BIOS setup of your computer.
 
-### SATA/ACHI Modew Required
+### SATA/ACHI Mode Required
 
 In addition, you must set the drive option to SATA/ACHI rather than RAID in order for the bootable drive to see the SSD.
 
