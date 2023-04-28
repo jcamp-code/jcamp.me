@@ -1,3 +1,3 @@
 # Wallpapers
 
-[Windows 365](./windows365wallpaper.jpg)
+[Windows 365](/images/wallpapers/windows365wallpaper.jpg)

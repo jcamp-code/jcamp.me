@@ -115,6 +115,18 @@ You would still need to enable the group policy to enable bitlocker hardware enc
 To keep this page shorter, I've moved that process to a separate page \
 [Enable Bitlocker Hardware Encryption in Group Policy](./enabling-bitlocker-hardware-policy.md)
 
+::: warning
+Because we did this with the command line, the BitLocker UI will not store a recovery password in your Microsoft account. \
+Please be sure to create one and store it somewhere safely
+:::
+
+## Create your recovery password
+
+- `manage-bde -protectors -add C: -RecoveryPassword`
+  This command will create and display the Recovery Password for you. Be sure to save it.
+
+- If you want to store the recovery in your Microsoft account, you can now do this in the UI after running that command.
+
 ### (Optional) Re-enable SID Block
 
 If the POST screen told you that the disable "Block SID" config is persistent (and not for just one boot), then you need enable it again. Either in the BIOS (where you disabled it before) or via Windows Powershell. The computers I've tested this on all said one boot.
