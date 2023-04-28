@@ -16,7 +16,7 @@ The process for this changed with Windows 11 22H2 release. I think its much easi
 - Type the following below and it will restart the computer and allow the process to continue without internet (that's a letter `O` on the end not a zero)
 
   ```ps
-  OOBE/BYPASSNRO
+  OOBE\BYPASSNRO
   ```
 
 - Once you get back to the `Let's connect you to a network` screen, you'll see a new option to `Continue with Limited Setup`

@@ -42,4 +42,4 @@ Download Rufus and the Windows 11 ISO above. Start Rufus and proceed
 - I use Pro for my Windows version so Bitlocker tools are available.
 - Windows To Go will reboot during initial setup; in order to continue be sure to catch it and change the boot sequence to the external drive.
 - I like to use a different wallpaper for my WindowsToGo installs to make it easier.  
-  [Windows 365](../../../wallpapers/windows365wallpaper.jpg)
+  [Windows 365](/images/wallpapers/windows365wallpaper.jpg)
