@@ -1,3 +1,10 @@
+---
+date: 2023-04-28
+title: 'Bypassing Internet Requirement for Windows Installation'
+category: Tutorial
+tags: windows, tools
+---
+
 # Bypassing Internet Requirement for Windows Installation
 
 The process for this changed with Windows 11 22H2 release. I think its much easier now.

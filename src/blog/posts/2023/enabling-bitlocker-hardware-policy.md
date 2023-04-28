@@ -1,3 +1,10 @@
+---
+date: 2023-04-28
+title: 'Enabling BitLocker Hardware Encryption'
+category: Tutorial
+tags: windows, tools
+---
+
 # Enabling BitLocker Hardware Encryption
 
 This is needed if you want to enable hardware encryption on applicable SSDs after the initial Windows setup.

@@ -1,3 +1,10 @@
+---
+date: 2023-04-28
+title: 'Customizing Windows Installation'
+category: Tutorial
+tags: windows, tools
+---
+
 # Customizing Windows Installation
 
 By default, the Windows installation tool will use the edition of Windows that it finds a key for in your BIOS and never present the option to choose which edition you want to install.

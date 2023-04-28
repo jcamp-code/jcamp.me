@@ -1,3 +1,10 @@
+---
+date: 2023-04-28
+title: 'How to use Hardware Bitlocker with a Samsung Pro 980 SSD'
+category: Tutorial
+tags: windows, tools, samsung, ssd
+---
+
 # How to use Hardware Bitlocker with a Samsung Pro 980 SSD.
 
 ## Prequisites
