@@ -8,7 +8,7 @@ The process for this changed with Windows 11 22H2 release. I think its much easi
 
 - Type the following below and it will restart the computer and allow the process to continue without internet (that's a letter `O` on the end not a zero)
 
-  ```psh
+  ```ps
   OOBE/BYPASSNRO
   ```
 

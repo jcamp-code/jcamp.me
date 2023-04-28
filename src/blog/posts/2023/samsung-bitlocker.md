@@ -58,13 +58,13 @@ If you're certain your BIOS setting works as expected, than you can skip this se
 
 - Execute this command
 
-```psh
+```ps
 $tpm = gwmi -n root\cimv2\security\microsofttpm win32_tpm
 ```
 
 - Then, execute this command
 
-```psh
+```ps
 $tpm.SetPhysicalPresenceRequest(97)
 ```
 
@@ -112,11 +112,11 @@ To keep this page shorter, I've moved that process to a separate page \
 
 If the POST screen told you that the disable "Block SID" config is persistent (and not for just one boot), then you need enable it again. Either in the BIOS (where you disabled it before) or via Windows Powershell. The computers I've tested this on all said one boot.
 
-```psh
+```ps
 $tpm = gwmi -n root\cimv2\security\microsofttpm win32_tpm
 ```
 
-```psh
+```ps
 $tpm.SetPhysicalPresenceRequest(96)
 ```
 
