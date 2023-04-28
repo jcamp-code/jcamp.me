@@ -27,7 +27,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Drivers', link: '/reference/drivers/2023' },
       { text: 'Utilities', link: '/reference/utilities' },
-      { text: 'Wallpapers', link: '/reference/wallpapers' },
+      { text: 'Wallpapers', link: '/wallpapers' },
       {
         text: 'Blog',
         items: [
