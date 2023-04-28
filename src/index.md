@@ -16,7 +16,7 @@ hero:
 
 features:
   - title: My Tutorials
-    details: Projects I wanted to document for my own future reference, maybe others will find useful too.
+    details: Projects I wanted to document for my own future reference, maybe others will find useful too.  No ads, and no tutorials for advanced topics that treat you like you don't know how to use Notepad.  If you're looking for these topics, I'm assuming some level of skill with Windows.
     link: /blog
   - title: Utilities
     details: Links to frequently used utilites
