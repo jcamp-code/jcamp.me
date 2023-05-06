@@ -86,12 +86,18 @@ On the next boot the POST screen may alert you that "a configuration change was 
 - Press `Shift-F10` to open a command prompt
 
 - Confirm the status of the c: drive: \
-  `manage-bde -status c:`
+
+  ```ps
+  manage-bde -status c:
+  ```
 
   It should say `Protection Off`
 
 - Enable protection with hardware encryption \
-  `manage-bde -on c: -fet Hardware`
+
+  ```ps
+  manage-bde -on c: -fet Hardware
+  ```
 
 - You need to reboot to get past the hardware encryption test \
   `shutdown /r /t 0`
@@ -122,8 +128,11 @@ Please be sure to create one and store it somewhere safely
 
 ## Create your recovery password
 
-- `manage-bde -protectors -add C: -RecoveryPassword`
-  This command will create and display the Recovery Password for you. Be sure to save it.
+```ps
+manage-bde -protectors -add C: -RecoveryPassword
+```
+
+This command will create and display the Recovery Password for you. Be sure to save it.
 
 - If you want to store the recovery in your Microsoft account, you can now do this in the UI after running that command.
 
