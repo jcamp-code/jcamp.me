@@ -45,9 +45,3 @@ manage-bde -on d: -fet Hardware
 - I then used `msconfig` in the Boot tab to delete the non-existent Windows installation (it showed as `D:\Windows`)
 
 At this point, you should have both drives fully encrypted with Hardware encryption
-
-## Prequisites
-
-- [Windows to Go USB Drive](./windows-to-go.md)
-- [Samsung Secure Erase USB Drive](./samsung-secure-erase.md)
-- [Windows 11 Installation USB Drive](https://www.microsoft.com/software-download/windows11)
