@@ -18,6 +18,12 @@ I regularly reinstall Windows and this page is help me remember the tips and tri
 - Install and sync Dropbox
 - Configure taskbar as desired
 - Relocate user folders (Documents, Pictures, Music, Video) to desired locations
+- Update Terminal
+
+```ps
+winget install --id=Microsoft.WindowsTerminal  -e
+```
+
 - Install browsers, password tools
 
 ```ps
