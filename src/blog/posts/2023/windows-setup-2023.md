@@ -19,6 +19,11 @@ I regularly reinstall Windows and this page is help me remember the tips and tri
 - Configure taskbar as desired
 - Relocate user folders (Documents, Pictures, Music, Video) to desired locations
 - Install browsers, password tools
+
+```ps
+winget install --id=Google.Chrome -e  ; winget install --id=Brave.Brave -e  ; winget install --id=Mozilla.Firefox -e  ; winget install --id=AgileBits.1Password -e
+```
+
 - Disable core isolation (my preference)
 - Install security software
 - Install [O&O Shutup](https://www.oo-software.com/en/shutup10) to configure Windows as desired
